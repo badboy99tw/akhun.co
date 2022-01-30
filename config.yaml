@@ -1,3 +1,13 @@
 baseURL: https://akhun.co/
 title: A'Khun
+theme: sam
 hasCJKLanguage: true
+
+params:
+  mainMenu:
+    - link: /notes
+      text: notes
+    - link: /posts
+      text: posts
+    - link: /about
+      text: about
