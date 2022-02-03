@@ -1,0 +1,24 @@
+{
+  "name": "akhun.co",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/badboy99tw/akhun.co.git"
+  },
+  "author": "Chìnkhun Lîm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/badboy99tw/akhun.co/issues"
+  },
+  "homepage": "https://github.com/badboy99tw/akhun.co#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "postcss-cli": "^9.1.0"
+  }
+}
