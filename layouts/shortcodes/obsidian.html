@@ -1,0 +1,12 @@
+{{ $data := newScratch }}
+{{ $data.Set "inner" .Inner }}
+{{ $names := findRE "\\[\\[([^ ]*)\\]\\]" .Inner }}
+{{ range $names }}
+    {{ $obsidianInternalLink := replace (replace . "[[" "") "]]" "" }}
+    {{ if (gt (len $obsidianInternalLink) 0) }}
+        {{ $permalink := relref $.Page (printf "%s.md" $obsidianInternalLink) }}
+        {{ $markdownLink := printf "[%s](%s)" $obsidianInternalLink $permalink }}
+        {{ $data.Set "inner" (replace ($data.Get "inner") . $markdownLink) }}
+    {{ end }}
+{{ end }}
+{{ $data.Get "inner" }}
