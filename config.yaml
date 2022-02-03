@@ -4,6 +4,7 @@ theme: sam
 hasCJKLanguage: true
 
 params:
+  footerText: 盒仔內 ê 時間
   mainMenu:
     - link: /notes
       text: notes
