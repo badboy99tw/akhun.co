@@ -4,7 +4,10 @@
 {{ range $names }}
     {{ $obsidianInternalLink := replace (replace . "[[" "") "]]" "" }}
     {{ if (gt (len $obsidianInternalLink) 0) }}
-        {{ $permalink := relref $.Page (printf "%s.md" $obsidianInternalLink) }}
+        {{ $parts := split $obsidianInternalLink "#" }}
+        {{ $file := printf "%s.md" (index $parts 0) }}
+        {{ $heading := cond (eq (len $parts) 2) (printf "#%s" (index $parts 1)) "" }}
+        {{ $permalink := relref $.Page (printf "%s%s" $file $heading) }}
         {{ $markdownLink := printf "[%s](%s)" $obsidianInternalLink $permalink }}
         {{ $data.Set "inner" (replace ($data.Get "inner") . $markdownLink) }}
     {{ end }}
