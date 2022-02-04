@@ -1,0 +1,5 @@
+<section class="avatar">
+    <img src="{{ .profile.avatar }}" alt="avatar">
+</section>
+<h1>{{ .title | markdownify }}</h1>
+<h2>{{ range .profile.info }}{{.}}<br>{{ end }}</h2>

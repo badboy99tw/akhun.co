@@ -4,6 +4,12 @@ theme: sam
 hasCJKLanguage: true
 
 params:
+  profile:
+    avatar: avatar.jpg
+    info:
+      - Singer / Coder
+      - Taiwan
+  homepage: home
   footerText: 盒仔內 ê 時間
   mainMenu:
     - link: /notes
@@ -12,3 +18,5 @@ params:
       text: posts
     - link: /about
       text: about
+  custom_css:
+    - css/profile.css
