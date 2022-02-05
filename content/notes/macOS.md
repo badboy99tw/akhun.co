@@ -1,0 +1,7 @@
+---
+title: macOS
+---
+
+{{% obsidian %}}
+
+{{% /obsidian %}}
