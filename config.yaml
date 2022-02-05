@@ -2,6 +2,7 @@ baseURL: https://akhun.co/
 title: A'Khun
 theme: sam
 hasCJKLanguage: true
+enableGitInfo: true
 
 params:
   profile:
