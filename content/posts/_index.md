@@ -1,5 +1,4 @@
 ---
 title: posts
-cascade:
-    showDate: true
+groupByYear: true
 ---
