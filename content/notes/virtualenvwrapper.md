@@ -1,7 +1,6 @@
 ---
-title: virtualenvwrapper 筆記
-date: 2015-04-02
-tags: [python,virtualenv,virtualenvwrapper]
+title: virtualenvwrapper
+lastmod: 2015-04-02
 ---
 
 ## Install
@@ -33,4 +32,3 @@ source /usr/local/bin/virtualenvwrapper.sh
 
 - http://doughellmann.com/2008/05/01/virtualenvwrapper.html
 - http://virtualenvwrapper.readthedocs.org/en/latest/command_ref.html
-
