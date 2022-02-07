@@ -19,8 +19,6 @@ params:
       text: posts
     - link: /about
       text: about
-  custom_css:
-    - css/profile.css
 
 frontmatter:
   lastmod:
