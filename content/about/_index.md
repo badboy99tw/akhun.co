@@ -1,5 +1,5 @@
 ---
-title: about
+title: Chìnkhun Lîm
 type: gallery
 maxWidth: 800x
 clickablePhotos: true
