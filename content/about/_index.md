@@ -21,7 +21,7 @@ clickablePhotos: true
 - 中二志, co-author, 2019
 - [歌詞正字], co-author, 2017
 - [種稻日誌]、[種菜日誌], farmer, 2016 - 2018
-- [噴火器], vocal, 2014 - 2018
+- [噴火器], co-founder, 2014 - 2018
 - [阿魯巴國際戶外學校], assistant coach, 2014 - 2017
 - [捏爆柳丁], vocal, 2010 - 2013
 - 《國境之南，過境役男》, co-author, 2010
