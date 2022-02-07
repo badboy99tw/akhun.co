@@ -21,3 +21,10 @@ params:
       text: about
   custom_css:
     - css/profile.css
+
+frontmatter:
+  lastmod:
+    - lastmod
+    - :git
+    - date
+    - publishDate

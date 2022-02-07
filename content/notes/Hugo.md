@@ -24,9 +24,22 @@ enableGitInfo: true
 git config --global core.quotePath false
 ```
 
+若還想在 [[Markdown]] 的 Front Matter 手動指定 `lastmod`，則需要 [從 config 設定 lastmod 的順位](https://gohugo.io/getting-started/configuration/#configure-dates)，例如：
+
+```yaml
+// config.yaml
+frontmatter:
+  lastmod:
+    - lastmod
+    - :git
+    - date
+    - publishDate
+```
+
 ## References
 
 - [Git Info Variables](https://gohugo.io/variables/git/)
 - [Gitinfo fails on unicode filename](https://github.com/gohugoio/hugo/issues/3071)
+- [Last Modified Date in Hugo](https://mertbakir.gitlab.io/hugo/last-modified-date-in-hugo/)
 
 {{< /obsidian >}}
