@@ -2,7 +2,7 @@
 title: unicode
 ---
 
-{{% obsidian %}}
+{{< obsidian >}}
 
 ## Normalization Forms
 
@@ -16,8 +16,8 @@ title: unicode
 
 ### NFKC
 
-{{% /obsidian %}}
-
 ## References
 
 - [Unicode Normalization Forms](https://unicode.org/reports/tr15/)
+
+{{< /obsidian >}}

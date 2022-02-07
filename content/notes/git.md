@@ -2,7 +2,7 @@
 title: git
 ---
 
-{{% obsidian %}}
+{{< obsidian >}}
 
 ## config
 
@@ -36,4 +36,4 @@ Untracked files:
 	測試.md
 ```
 
-{{% /obsidian %}}
+{{< /obsidian >}}

@@ -1,7 +1,7 @@
 ---
 title: hugo
 ---
-{{% obsidian %}}
+{{< obsidian >}}
 
 ## .Lastmod
 
@@ -28,3 +28,5 @@ git config --global core.quotePath false
 
 - [Git Info Variables](https://gohugo.io/variables/git/)
 - [Gitinfo fails on unicode filename](https://github.com/gohugoio/hugo/issues/3071)
+
+{{< /obsidian >}}

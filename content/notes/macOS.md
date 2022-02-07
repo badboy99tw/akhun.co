@@ -2,6 +2,6 @@
 title: macOS
 ---
 
-{{% obsidian %}}
+{{< obsidian >}}
 
-{{% /obsidian %}}
+{{< /obsidian >}}

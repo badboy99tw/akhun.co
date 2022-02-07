@@ -20,4 +20,4 @@
         {{ $data.Set "inner" (replace ($data.Get "inner") . $markdownLink) }}
     {{ end }}
 {{ end }}
-{{ $data.Get "inner" }}
+{{ $data.Get "inner" | markdownify }}
