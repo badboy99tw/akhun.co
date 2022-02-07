@@ -2,6 +2,7 @@
 title: PyQt / PySide Widget 無痛插入 Maya UI 
 date: 2014-07-22
 tags: [pyqt,pyside,maya]
+draft: true
 ---
 
 維護瑪雅古文，該如何是好！

@@ -2,6 +2,7 @@
 title: 安裝 Windows 版 pylint / Sublime Pylinter
 date: 2014-08-01
 tags: [python,pylint,sublime,pylinter,windows]
+draft: true
 ---
 
 最近在整理寫程式的環境，打算使用 Sublime 下的 [Pylinter](https://sublime.wbond.net/packages/Pylinter) 和 [Python PEP8 Autoformat](https://sublime.wbond.net/packages/Python%20PEP8%20Autoformat) 做程式碼的規範。但因為工作環境已經把 python 執行檔及 modules 分開了，所以預設的安裝方式及設定是無法使用的，Pylinter 會找不到 python 執行檔跟 pylint，只好手動安裝。

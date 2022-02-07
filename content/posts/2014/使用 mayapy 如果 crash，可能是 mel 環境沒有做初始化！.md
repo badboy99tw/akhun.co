@@ -2,6 +2,7 @@
 title: 使用 mayapy 如果 crash，可能是 mel 環境沒有做初始化！
 date: 2014-09-24
 tags: [maya,mayapy,pymel]
+draft: true
 ---
 
 使用 mayapy 的時候，如果 mel 的環境設定沒有做初始化，常常會導致 maya crash！

@@ -2,6 +2,7 @@
 title: 從 Cygwin 執行 Windows 程式
 date: 2014-07-01
 tags: [python,cygwin,windows]
+draft: true
 ---
 
 工作了幾年，才漸漸接受自己必須在 Windows 底下做事的事實。

@@ -2,6 +2,7 @@
 title: 從 Sublime 傳送 Python Code 到 Maya 執行
 date: 2014-07-03
 tags: [python,sublime,maya]
+draft: true
 ---
 
 在 Maya 寫 Python 程式的派別不外乎：
