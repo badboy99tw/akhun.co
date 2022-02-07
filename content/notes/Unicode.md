@@ -1,5 +1,5 @@
 ---
-title: unicode
+title: Unicode
 ---
 
 {{< obsidian >}}

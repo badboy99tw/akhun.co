@@ -1,5 +1,5 @@
 ---
-title: hugo
+title: Hugo
 ---
 {{< obsidian >}}
 
@@ -18,7 +18,7 @@ enableGitInfo: true
 {{ .Lastmod.Format "Mon Jan 02, 2006" }}
 ```
 
-但在 [[macOS]] 如果遇到 `.GitInfo` 是空值，可能是因為 [[macOS]] 是用 [[unicode#NFD|NFD]] 格式儲存 unicode 檔名的關係，把 git 的 [[git#core.quotePath|quotePath]] 關掉可以解決這個問題：
+但在 [[macOS]] 如果遇到 `.GitInfo` 是空值，可能是因為 [[macOS]] 是用 [[Unicode#NFD|NFD]] 格式儲存 unicode 檔名的關係，把 git 的 [[Git#core.quotePath|quotePath]] 關掉可以解決這個問題：
 
 ```shell
 git config --global core.quotePath false
