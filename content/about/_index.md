@@ -11,7 +11,7 @@ clickablePhotos: true
 
 ## As a Coder
 
-待過動畫產業、OTT，最近在做遊戲。
+[待過][read.cv] 動畫產業、OTT，最近在做遊戲。
 
 ## Works
 
@@ -40,6 +40,7 @@ clickablePhotos: true
 [台灣月琴]: https://www.cmcmusic.com.tw/%E5%8F%B0%E7%81%A3%E6%9C%88%E7%90%B4/
 [陳達]: https://zh.wikipedia.org/zh-tw/%E9%99%B3%E9%81%94_(%E6%AD%8C%E6%89%8B)
 [麵包車樂團]: https://www.facebook.com/puncarband/
+[read.cv]: https://read.cv/akhun
 [暗光鳥樂團]: https://www.facebook.com/ReclaimTW/
 [逐工一幅天文圖]: https://apod.tw
 [逐工一幅天文圖/podcast]: https://open.firstory.me/user/apod-taigi/platforms
