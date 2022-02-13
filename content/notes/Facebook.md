@@ -1,8 +1,9 @@
 ---
-title: "[Demo] Facebook 後端登入流程"
-date: 2019-05-20
-tags: [demo,facebook/login,python]
+title: Facebook
+lastmod: 2019-05-20
 ---
+
+## [Demo] Facebook 後端登入流程
 
 參考官方文件 [Manually Build a Login Flow](https://developers.facebook.com/docs/facebook-login/manually-build-a-login-flow/)，用 Python 實作使用者從前端按下登入按鈕，跳出 Facebook Login Dialog 確認授權後，前端再打後端 api，讓後端取得 access token，完成登入流程。
 
