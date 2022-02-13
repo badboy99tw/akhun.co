@@ -39,9 +39,6 @@ body {
 ### TODO
 
 - 用 `cssclass` 修改特定筆記的字型就好
-- 想一下怎麼讓 [[Hugo]] 生出來的網頁也能正確顯示。
-
-目前天真的想法是，既然 [Sarasa Gothic] 整合 [Iosevka] 和 [思源黑體]，那我可不可以 [透過 CSS 將 CJK 和英文設成不同字型][unicode-range]，英數字吃 [自己 build 的 Iosevka][Hosting your own web fonts]，CJK 靠 Google 提供的 webfont [Noto Sans Traditional Chinese]？
 
 [Sarasa Gothic]: https://github.com/be5invis/Sarasa-Gothic
 [Iosevka]: https://github.com/be5invis/Iosevka
@@ -51,8 +48,5 @@ body {
 [xFonts]: https://github.com/manolosavi/xFonts
 [Sarasa Gothic Releases]: https://github.com/be5invis/Sarasa-Gothic/releases
 [hinted]: https://en.wikipedia.org/wiki/Font_hinting
-[Hosting your own web fonts]: https://blog.jiayu.co/2018/06/hosting-your-own-web-fonts/
-[unicode-range]: https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/unicode-range
-[Noto Sans Traditional Chinese]: https://fonts.google.com/noto/specimen/Noto+Sans+TC
 
 {{< /obsidian >}}
