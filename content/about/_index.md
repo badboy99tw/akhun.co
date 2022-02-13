@@ -35,7 +35,6 @@ clickablePhotos: true
 ## Talks
 
 - [一个軟體工程師佇農村 ê 見聞](https://hackmd.io/@badboy99/Hyzjn1FGb?type=slide#/), PyConTW/COSCUP, 2017
-- [轉轉轉好運旺來一起來之雲端轉檔大作戰！](https://tw.pycon.org/2016/en-us/events/talk/70089712156541000/), PyConTW, 2016
 
 [台灣月琴]: https://www.cmcmusic.com.tw/%E5%8F%B0%E7%81%A3%E6%9C%88%E7%90%B4/
 [陳達]: https://zh.wikipedia.org/zh-tw/%E9%99%B3%E9%81%94_(%E6%AD%8C%E6%89%8B)
