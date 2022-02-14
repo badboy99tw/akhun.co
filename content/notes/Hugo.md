@@ -30,9 +30,7 @@ title: Hugo
 
 ### TODO
 
-現在的字型檔要 `4MB` 還是很大，如果 [自己 build Iosevka][Hosting your own web fonts] 可以更小！
-
-[Hosting your own web fonts]: https://blog.jiayu.co/2018/06/hosting-your-own-web-fonts/
+正解應該是用 [[font#CJK 網路字型處理|WOFF]] 處理 [Sarasa Gothic]，有空來研究一下，不要再土炮啦！
 
 ## .Lastmod
 
