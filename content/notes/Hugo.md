@@ -20,7 +20,7 @@ title: Hugo
 
 那個 `size-adjust: 86%` 實在非常土炮，但我一時也不知道 [Sarasa Gothic] 做過什麼處理，就先這樣 QQ
 
-設定細節可以看這個 [commit](https://github.com/badboy99tw/hugo-theme-sam/commit/bfb0c2e97346c3d9a66c5d4136332a470699ec19)；最後 render 起來的感覺可以參考 [[雨夜花]]。
+設定細節可以看這個 [commit](https://github.com/badboy99tw/hugo-theme-sam/commit/bfb0c2e97346c3d9a66c5d4136332a470699ec19)；最後 render 起來的感覺可以參考 [[songs/雨夜花|雨夜花]]。
 
 [Sarasa Gothic]: https://github.com/be5invis/Sarasa-Gothic
 [Iosevka]: https://github.com/be5invis/Iosevka
