@@ -7,7 +7,7 @@ clickablePhotos: true
 
 ## As a Singer
 
-喜歡台語歌曲背後的時代意義。追求自己的聲音。正在學習 [台灣月琴]。期望能成為像 [陳達] 那樣的吟遊詩人。受到 [麵包車樂團] 的啟發，2019 年開始用 [暗光鳥樂團] 這個名字到安養機構唱台語老歌。2021 年起參與 [逐工一幅天文圖] [podcast][逐工一幅天文圖/podcast] 的 [錄音][逐工一幅天文圖/vocal] 工作，同時探索聲音的其他可能。
+透過演唱介紹 [台語歌曲背後的時代意義][歌唱台灣介紹]。追求 [自己的聲音][孤女 ê 願望]。正在學習 [台灣月琴]。期望能成為像 [陳達] 那樣的吟遊詩人。受到 [麵包車樂團] 的啟發，2019 年開始用 [暗光鳥樂團] 這個名字到安養機構唱 [台語老歌][songs]。2021 年起參與 [逐工一幅天文圖] [podcast][逐工一幅天文圖/podcast] 的 [錄音][逐工一幅天文圖/vocal] 工作，同時探索聲音的其他可能。
 
 ## As a Coder
 
@@ -36,11 +36,14 @@ clickablePhotos: true
 
 - [一个軟體工程師佇農村 ê 見聞](https://hackmd.io/@badboy99/Hyzjn1FGb?type=slide#/), PyConTW/COSCUP, 2017
 
+[歌唱台灣介紹]: https://www.cna.com.tw/news/firstnews/202107100238.aspx
+[孤女 ê 願望]: https://streetvoice.com/badboy99/songs/560760/
 [台灣月琴]: https://www.cmcmusic.com.tw/%E5%8F%B0%E7%81%A3%E6%9C%88%E7%90%B4/
 [陳達]: https://zh.wikipedia.org/zh-tw/%E9%99%B3%E9%81%94_(%E6%AD%8C%E6%89%8B)
 [麵包車樂團]: https://www.facebook.com/puncarband/
 [read.cv]: https://read.cv/akhun
 [暗光鳥樂團]: https://www.facebook.com/ReclaimTW/
+[songs]: /notes/songs/
 [逐工一幅天文圖]: https://apod.tw
 [逐工一幅天文圖/podcast]: https://open.firstory.me/user/apod-taigi/platforms
 [逐工一幅天文圖/vocal]: https://apod.tw/vocals/%E9%98%BF%E9%8C%95/
