@@ -30,7 +30,7 @@ title: Hugo
 
 ### TODO
 
-正解應該是用 [[font#CJK 網路字型處理|WOFF]] 處理 [Sarasa Gothic]，有空來研究一下，不要再土炮啦！
+iOS 上試過 Safari、Firefox、Edge、Chrome 都吃不到 `size-adjust`，所以還是歪的。但正解應該是用 [[font#CJK 網路字型處理|WOFF]] 處理 [Sarasa Gothic]，有空來研究一下，不要再土炮啦！
 
 ## .Lastmod
 
