@@ -11,7 +11,7 @@ clickablePhotos: true
 
 ## As a Coder
 
-[待過][read.cv] 動畫產業、OTT，最近在做遊戲。
+[做過][read.cv] 動畫、OTT、遊戲，最近在能源產業。
 
 ## Works
 
