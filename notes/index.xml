@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>notes on A'Khun</title><link>https://akhun.co/notes/</link><description>Recent content in notes on A'Khun</description><generator>Hugo</generator><language>en</language><atom:link href="https://akhun.co/notes/index.xml" rel="self" type="application/rss+xml"/><item><title>Facebook</title><link>https://akhun.co/notes/facebook/</link><pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate><guid>https://akhun.co/notes/facebook/</guid><description>&lt;h2 id="demo-facebook-後端登入流程" class="anchor-link">&lt;a href="#demo-facebook-%e5%be%8c%e7%ab%af%e7%99%bb%e5%85%a5%e6%b5%81%e7%a8%8b">[Demo] Facebook 後端登入流程&lt;span class="pilcrow">&amp;nbsp;¶&lt;/span>&lt;/a>&lt;/h2>
+&lt;p>參考官方文件 &lt;a href="https://developers.facebook.com/docs/facebook-login/manually-build-a-login-flow/">Manually Build a Login Flow&lt;/a>，用 Python 實作使用者從前端按下登入按鈕，跳出 Facebook Login Dialog 確認授權後，前端再打後端 api，讓後端取得 access token，完成登入流程。&lt;/p></description></item><item><title>macOS</title><link>https://akhun.co/notes/macos/</link><pubDate>Sun, 12 Jul 2015 00:00:00 +0000</pubDate><guid>https://akhun.co/notes/macos/</guid><description>&lt;h2 id="關掉單雙引號的自動轉換" class="anchor-link">&lt;a href="#%e9%97%9c%e6%8e%89%e5%96%ae%e9%9b%99%e5%bc%95%e8%99%9f%e7%9a%84%e8%87%aa%e5%8b%95%e8%bd%89%e6%8f%9b">關掉單、雙引號的自動轉換&lt;span class="pilcrow">&amp;nbsp;¶&lt;/span>&lt;/a>&lt;/h2>
+&lt;p>這一年開始拿 Mac 作為工作機，在使用 Evernote 時常遇到煩人的狀況，就是每當在 Note 輸入雙引號（&amp;quot;），都會被自動換成（“），單引號（&amp;rsquo;）會被換成（‘）。因為常用的 bash command 會存在 Evernote 裡面，每次從 Evernote 剪下貼到 Terminal 的時候都會執行錯誤，實在覺得&lt;del>很靠北&lt;/del>非常惱人。&lt;/p></description></item><item><title>virtualenvwrapper</title><link>https://akhun.co/notes/virtualenvwrapper/</link><pubDate>Thu, 02 Apr 2015 00:00:00 +0000</pubDate><guid>https://akhun.co/notes/virtualenvwrapper/</guid><description>&lt;h2 id="install" class="anchor-link">&lt;a href="#install">Install&lt;span class="pilcrow">&amp;nbsp;¶&lt;/span>&lt;/a>&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>pip install virtualenvwrapper
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;h2 id="environment-bashrc" class="anchor-link">&lt;a href="#environment-bashrc">Environment (.bashrc)&lt;span class="pilcrow">&amp;nbsp;¶&lt;/span>&lt;/a>&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># virtualenvwrapper&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>export WORKON_HOME&lt;span style="color:#f92672">=&lt;/span>$HOME/.virtualenvs
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>export PROJECT_HOME&lt;span style="color:#f92672">=&lt;/span>$HOME/works
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>source /usr/local/bin/virtualenvwrapper.sh
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;h2 id="basic-commands" class="anchor-link">&lt;a href="#basic-commands">Basic commands&lt;span class="pilcrow">&amp;nbsp;¶&lt;/span>&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>workon: 列出有哪些 virtualenv，或是切換到指定的 virtualenv&lt;/li>
+&lt;li>mkvirtualenv&lt;/li>
+&lt;li>rmvirtualenv&lt;/li>
+&lt;li>mktmpenv&lt;/li>
+&lt;li>lsvirtualenv&lt;/li>
+&lt;li>cpvirtualenv&lt;/li>
+&lt;/ul>
+
+&lt;h2 id="references" class="anchor-link">&lt;a href="#references">References&lt;span class="pilcrow">&amp;nbsp;¶&lt;/span>&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="http://doughellmann.com/2008/05/01/virtualenvwrapper.html">http://doughellmann.com/2008/05/01/virtualenvwrapper.html&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://virtualenvwrapper.readthedocs.org/en/latest/command_ref.html">http://virtualenvwrapper.readthedocs.org/en/latest/command_ref.html&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>CSS</title><link>https://akhun.co/notes/css/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://akhun.co/notes/css/</guid><description>&lt;h2 id="font-face" class="anchor-link">&lt;a href="#font-face">@font-face&lt;span class="pilcrow">&amp;nbsp;¶&lt;/span>&lt;/a>&lt;/h2>
+&lt;p>&lt;a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/unicode-range">unicode-range&lt;/a>&lt;/p></description></item><item><title>Ending Note</title><link>https://akhun.co/notes/ending/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://akhun.co/notes/ending/</guid><description>&lt;p>人生無常，活在當下。希望能在有限的時間裡，收斂自己的需求和想法。&lt;/p>
+&lt;p>在此作個紀錄。&lt;/p>
+&lt;blockquote>
+&lt;p>享受人生的起落，不知道怎麼辦的時候，就笑吧。&lt;/p>&lt;/blockquote></description></item><item><title>Firefox</title><link>https://akhun.co/notes/firefox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://akhun.co/notes/firefox/</guid><description>&lt;h2 id="add-ons" class="anchor-link">&lt;a href="#add-ons">Add-ons&lt;span class="pilcrow">&amp;nbsp;¶&lt;/span>&lt;/a>&lt;/h2>
+&lt;p>Copy Selection as Markdown
+&lt;a href="https://github.com/0x6b/copy-selection-as-markdown">https://github.com/0x6b/copy-selection-as-markdown&lt;/a>&lt;/p>
+&lt;p>Simple Translate
+&lt;a href="https://simple-translate.sienori.com/">https://simple-translate.sienori.com/&lt;/a>&lt;/p>
+&lt;p>YouTube™ Repeat Button
+&lt;a href="https://add0n.com/youtube-tools.html?from=repeat-button">https://add0n.com/youtube-tools.html?from=repeat-button&lt;/a>&lt;/p></description></item><item><title>font</title><link>https://akhun.co/notes/font/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://akhun.co/notes/font/</guid><description>&lt;h2 id="cjk-網路字型處理" class="anchor-link">&lt;a href="#cjk-%e7%b6%b2%e8%b7%af%e5%ad%97%e5%9e%8b%e8%99%95%e7%90%86">CJK 網路字型處理&lt;span class="pilcrow">&amp;nbsp;¶&lt;/span>&lt;/a>&lt;/h2>
+&lt;p>概念上是把 font 轉成 WOFF/WOFF2 再切成上百個 subset 然後用 &lt;a href="https://akhun.co/notes/css/#@font-face">@font-face&lt;/a> 的 &lt;code>unicode-range&lt;/code> 讀。應該有機會自動化（吧&lt;/p>
+
+&lt;h3 id="references" class="anchor-link">&lt;a href="#references">References&lt;span class="pilcrow">&amp;nbsp;¶&lt;/span>&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://matters.news/@akenomeisei/%E9%97%9C%E6%96%BC%E7%B6%B2%E9%A0%81%E4%B8%AD%E6%96%87%E5%AD%97%E5%9E%8B%E7%98%A6%E8%BA%AB-2-bafyreib5xbgqer5hiwmwlpdcgl3poma76dfdmigwnvxpoy45635mlrxejm">關於網頁中文字型瘦身-②&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://richer.tw/web-font-with-chinese">網路字型中對於中文字型的處理&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://cyrians.com/chinesefonts-subset/">[WordPress]網頁中文字型瘦身&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.jiayu.co/2018/06/hosting-your-own-web-fonts/">Hosting your own web fonts&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Git</title><link>https://akhun.co/notes/git/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://akhun.co/notes/git/</guid><description>&lt;h2 id="config" class="anchor-link">&lt;a href="#config">config&lt;span class="pilcrow">&amp;nbsp;¶&lt;/span>&lt;/a>&lt;/h2>
+
+&lt;h3 id="corequotepath" class="anchor-link">&lt;a href="#corequotepath">core.quotePath&lt;span class="pilcrow">&amp;nbsp;¶&lt;/span>&lt;/a>&lt;/h3>
+&lt;p>解決 unicode 檔名在 macOS 亂碼的問題。舉例來說，在某個 git repo，如果有個 unicode 檔名的檔案：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>touch 測試.md
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>把 &lt;code>quotePath&lt;/code> 設成 &lt;code>true&lt;/code>（預設），會看到亂碼：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>&amp;gt; git config --global core.quotePath true
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;gt; git status
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Untracked files:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">(&lt;/span>use &lt;span style="color:#e6db74">&amp;#34;git add &amp;lt;file&amp;gt;...&amp;#34;&lt;/span> to include in what will be committed&lt;span style="color:#f92672">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>	&lt;span style="color:#e6db74">&amp;#34;\346\270\254\350\251\246.md&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>把 &lt;code>quotePath&lt;/code> 設成 &lt;code>false&lt;/code>，就能正常顯示：&lt;/p></description></item><item><title>Homebrew</title><link>https://akhun.co/notes/homebrew/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://akhun.co/notes/homebrew/</guid><description/></item><item><title>How to fall asleep</title><link>https://akhun.co/notes/how-to-fall-asleep/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://akhun.co/notes/how-to-fall-asleep/</guid><description>&lt;ul>
+&lt;li>呼吸放慢&lt;/li>
+&lt;li>數數，吸氣數 1，呼氣數 2，數到 20 算一輪&lt;/li>
+&lt;li>給自己一個遠大的目標，例如 20 輪&lt;/li>
+&lt;li>開始數&lt;/li>
+&lt;/ul>
+
+&lt;h2 id="reference" class="anchor-link">&lt;a href="#reference">Reference&lt;span class="pilcrow">&amp;nbsp;¶&lt;/span>&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://twitter.com/miau715/status/1206258595001536512?s=20&amp;amp;t=3ZnC5F5aHindSZqiRY--2Q">@miau715&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>HTML</title><link>https://akhun.co/notes/html/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://akhun.co/notes/html/</guid><description/></item><item><title>Hugo</title><link>https://akhun.co/notes/hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://akhun.co/notes/hugo/</guid><description>&lt;h2 id="support-numbered-musical-notation" class="anchor-link">&lt;a href="#support-numbered-musical-notation">Support Numbered Musical Notation&lt;span class="pilcrow">&amp;nbsp;¶&lt;/span>&lt;/a>&lt;/h2>
+&lt;p>為了要讓整理好的簡譜也能正常顯示，需要把簡譜用支援 CJK 的 monospaced font 顯示，例如 &lt;a href="https://github.com/be5invis/Sarasa-Gothic">Sarasa Gothic&lt;/a>。但因為把整包 CJK 字型放到網站上實在太肥，想到既然 &lt;a href="https://github.com/be5invis/Sarasa-Gothic">Sarasa Gothic&lt;/a> 整合 &lt;a href="https://github.com/be5invis/Iosevka">Iosevka&lt;/a> 和 &lt;a href="https://zh.wikipedia.org/zh-tw/%E6%80%9D%E6%BA%90%E9%BB%91%E9%AB%94">思源黑體&lt;/a>，那可不可以英數字用 &lt;a href="https://github.com/be5invis/Iosevka">Iosevka&lt;/a>、CJK 靠 Google 提供的 webfont &lt;a href="https://fonts.google.com/noto/specimen/Noto+Sans+TC">Noto Sans Traditional Chinese&lt;/a> 來顯示呢？於是就來實驗看看。&lt;/p></description></item><item><title>Markdown</title><link>https://akhun.co/notes/markdown/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://akhun.co/notes/markdown/</guid><description/></item><item><title>Obsidian</title><link>https://akhun.co/notes/obsidian/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://akhun.co/notes/obsidian/</guid><description>&lt;h2 id="在-code-block-使用-custom-font" class="anchor-link">&lt;a href="#%e5%9c%a8-code-block-%e4%bd%bf%e7%94%a8-custom-font">在 code block 使用 custom font&lt;span class="pilcrow">&amp;nbsp;¶&lt;/span>&lt;/a>&lt;/h2>
+&lt;p>大部分 monospaced font 並不包含 CJK，造成全形的 CJK 文字和半形的英數字寬度不同，混搭沒辦法對齊。但我想用 code block 整理台語歌的簡譜（&lt;a href="https://akhun.co/notes/markdown/#Numbered-Musical-Notation">Numbered Musical Notation&lt;/a>），歌詞和符號如果沒辦法對齊會非常困擾。&lt;/p></description></item><item><title>Past Year Review</title><link>https://akhun.co/notes/past-year-review/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://akhun.co/notes/past-year-review/</guid><description>&lt;ul>
+&lt;li>檢視過去一年每一週活動&lt;/li>
+&lt;li>寫下每個活動的感覺，分正向負向&lt;/li>
+&lt;li>找出排名前 20% 的活動，排入次年行程&lt;/li>
+&lt;li>檢討後 20%&lt;/li>
+&lt;/ul>
+
+&lt;h2 id="references" class="anchor-link">&lt;a href="#references">References&lt;span class="pilcrow">&amp;nbsp;¶&lt;/span>&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://twitter.com/lovecankill/status/1477310183798087681?s=20&amp;amp;t=mOeFN5GPzd1jWjo-b1m6gw">@lovecankill&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://tim.blog/2021/12/27/past-year-review/">Forget New Year’s Resolutions and Conduct a ‘Past Year Review’ Instead (#559)&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>pyenv</title><link>https://akhun.co/notes/pyenv/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://akhun.co/notes/pyenv/</guid><description>&lt;p>Python 版本的管理工具&lt;/p>
+
+&lt;h2 id="references" class="anchor-link">&lt;a href="#references">References&lt;span class="pilcrow">&amp;nbsp;¶&lt;/span>&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/pyenv/pyenv">https://github.com/pyenv/pyenv&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>ueli</title><link>https://akhun.co/notes/ueli/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://akhun.co/notes/ueli/</guid><description>&lt;blockquote>
+&lt;p>A keystroke launcher for Windows and macOS&lt;/p>&lt;/blockquote>
+
+&lt;h2 id="references" class="anchor-link">&lt;a href="#references">References&lt;span class="pilcrow">&amp;nbsp;¶&lt;/span>&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://ueli.app/#/">https://ueli.app/#/&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Unicode</title><link>https://akhun.co/notes/unicode/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://akhun.co/notes/unicode/</guid><description>&lt;h2 id="normalization-forms" class="anchor-link">&lt;a href="#normalization-forms">Normalization Forms&lt;span class="pilcrow">&amp;nbsp;¶&lt;/span>&lt;/a>&lt;/h2>
+&lt;p>為了讓兩個 unicode strings 在做字串比對時可以得到正確的結果，定義了下列四種正規化的方式。&lt;/p>
+
+&lt;h3 id="nfd" class="anchor-link">&lt;a href="#nfd">NFD&lt;span class="pilcrow">&amp;nbsp;¶&lt;/span>&lt;/a>&lt;/h3>
+
+&lt;h3 id="nfc" class="anchor-link">&lt;a href="#nfc">NFC&lt;span class="pilcrow">&amp;nbsp;¶&lt;/span>&lt;/a>&lt;/h3>
+
+&lt;h3 id="nfkd" class="anchor-link">&lt;a href="#nfkd">NFKD&lt;span class="pilcrow">&amp;nbsp;¶&lt;/span>&lt;/a>&lt;/h3>
+
+&lt;h3 id="nfkc" class="anchor-link">&lt;a href="#nfkc">NFKC&lt;span class="pilcrow">&amp;nbsp;¶&lt;/span>&lt;/a>&lt;/h3>
+
+&lt;h2 id="references" class="anchor-link">&lt;a href="#references">References&lt;span class="pilcrow">&amp;nbsp;¶&lt;/span>&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://unicode.org/reports/tr15/">Unicode Normalization Forms&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>月琴</title><link>https://akhun.co/notes/%E6%9C%88%E7%90%B4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://akhun.co/notes/%E6%9C%88%E7%90%B4/</guid><description>&lt;h2 id="二弦月琴" class="anchor-link">&lt;a href="#%e4%ba%8c%e5%bc%a6%e6%9c%88%e7%90%b4">二弦月琴&lt;span class="pilcrow">&amp;nbsp;¶&lt;/span>&lt;/a>&lt;/h2>
+&lt;p>（EA）25 調（D major / B minor）&lt;/p>
+&lt;pre tabindex="0">&lt;code>5. 6. 7. 1 2 3 4 5 6 1&amp;#39;
+ ┌──┬▄▄┬▄▄┬▄▄┬──┬──┬──┬──┬──┬──┼──┐
+ └──┴▀▀┴▀▀┴▀▀┴──┴──┴──┴──┴──┴──┼──┘
+2. 3. 4. 5. 6. 7. 1 2 3 4 5
+&lt;/code>&lt;/pre>&lt;p>（EA）36 調（C major / A minor）&lt;/p></description></item></channel></rss>
